@@ -1,21 +1,29 @@
 header{
     background-color: #7C5E99;
+    border-bottom: 10px solid #000;
 }
 nav{
     /* display: inline-block; */
-    background-color: red;
+    background-color: #7C5E99;
     text-align: right;
 }
-span, a{
+a{
     display: inline;
-    background-color: orange;
     color: white;
     font-size: 20px;
     font-family: "Fira Code", Arial;
-    font-weight: 500;
+    font-weight: 00;
     text-decoration: none;
     text-align: center;
-    /* margin-right: 30px; */
+    margin-right: 10px;
+}
+a::before{
+    content: " ";
+    background-color: green;
+    display: inline-block;
+    height: 13px;
+    width: 13px;
+    margin-right: 10px;
 }
 #download_cv_button{    
     display: inline;
