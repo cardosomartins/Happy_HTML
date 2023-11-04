@@ -44,3 +44,17 @@ a::before{
 #download_cv_button:hover{
     transform: scale(1.1);
 }
+#back_ground_image{
+    position: absolute;
+}
+.button_in_image{
+    position: fixed;
+    top: 30px;
+}
+.inside_logo{    
+    font-weight: 1000;
+    display: block;    
+    position: relative;
+    text-align: center;
+    margin: 20px;
+}
