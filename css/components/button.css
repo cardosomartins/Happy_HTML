@@ -1,4 +1,4 @@
-#download_cv_button{
+#download_cv_button {
     display: inline-block;
     background-color: #3E567C;    
     color: white;
@@ -7,10 +7,10 @@
     padding: 18px 20px 18px 20px;
     box-shadow: 5px 5px 0 #24344D;
 }
-#download_cv_button:hover{
+#download_cv_button:hover {
     transform: scale(1.1);
 }
-.button_in_image{
+.button_in_image {
     background-color: #3E567C;       
     color: white;    
     display: inline-block;
@@ -28,4 +28,6 @@
     margin-right: 10px;    
     transition: transform 100ms linear, opacity 300ms ease-in-out;    
     transform: scale(1.1);
+    position: relative;
+    z-index: 2;
 }
