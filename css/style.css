@@ -3,7 +3,7 @@ header{
 }
 nav{
     display: block;
-    background-color: #7C5E99;
+    background-color: grey;
     height: 100px;
     box-shadow: 0px 10px 0 black;
 }
@@ -36,12 +36,12 @@ a:hover{
 }
 #download_cv_button{
     display: inline-block;
-    background-color: #F25A70;    
+    background-color: #3E567C;    
     color: white;
     height: 60px;
     line-height: 60px;
     padding: 18px 20px 18px 20px;
-    box-shadow: 5px 5px 0 pink;
+    box-shadow: 5px 5px 0 #24344D;
 }
 #download_cv_button:hover{
     transform: scale(1.1);
@@ -50,13 +50,13 @@ a:hover{
     position: absolute;
 }
 .button_in_image{
-    background-color: #F25A70;       
+    background-color: #3E567C;       
     color: white;    
     display: inline-block;
     height: 60px;
     line-height: 60px;
     padding: 18px 20px 18px 20px;
-    box-shadow: 5px 5px 0 pink;
+    box-shadow: 5px 5px 0 #24344D;
     top: 30px;
     margin: 30px;
     margin-left: 60px;
