@@ -34,39 +34,8 @@ a:hover{
     border-bottom: 100px;
     transition: transform 100ms linear, opacity 300ms ease-in-out;
 }
-#download_cv_button{
-    display: inline-block;
-    background-color: #3E567C;    
-    color: white;
-    height: 60px;
-    line-height: 60px;
-    padding: 18px 20px 18px 20px;
-    box-shadow: 5px 5px 0 #24344D;
-}
-#download_cv_button:hover{
-    transform: scale(1.1);
-}
 #back_ground_image{
     position: absolute;
-}
-.button_in_image{
-    background-color: #3E567C;       
-    color: white;    
-    display: inline-block;
-    height: 60px;
-    line-height: 60px;
-    padding: 18px 20px 18px 20px;
-    box-shadow: 5px 5px 0 #24344D;
-    top: 30px;
-    margin: 30px;
-    margin-left: 60px;
-    font-size: 20px;
-    font-family: "Fira Code", Arial;
-    text-decoration: none;
-    text-align: center;
-    margin-right: 10px;    
-    transition: transform 100ms linear, opacity 300ms ease-in-out;    
-    transform: scale(1.1);
 }
 
 
