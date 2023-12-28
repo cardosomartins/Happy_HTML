@@ -1,9 +1,41 @@
 .skills_section{
+    position: relative;
     background-color: grey;
-    content: center;
+    border-top: 13px solid black;
 }
 
 .skills_section .box_standard{
     margin: 0px;
     padding: 30px;
+}
+
+.skills_section .skills_div_column{
+    display: flex;    
+    flex-direction: column;
+}
+
+.skills_section .skills_div_row{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.skill_bar{    
+    color: white;
+    font-family: "Press Start 2P", monospace;
+    font-weight: 1000;
+    font-size: 20px;
+    display: block;    
+    position: relative;
+    text-align: center;
+    margin: 20px;
+    text-shadow: 5px 5px 0 black;
+}
+.skill_bar::after{
+    content: " ";
+    background-color: black;
+    display: block;
+    height: 13px;
+    width: 13px;
+    margin-right: 10px;
+    margin-top: 30px;
 }
