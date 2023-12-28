@@ -1,0 +1,9 @@
+.skills_section{
+    background-color: grey;
+    content: center;
+}
+
+.skills_section .box_standard{
+    margin: 0px;
+    padding: 30px;
+}
