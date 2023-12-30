@@ -57,7 +57,7 @@
 }
 
 #html5_bar::before{
-    content: url("/ico_html5.png");
+    content: url("/img/ico_html5.png");
     position: absolute;
     zoom: 0.55;
     left: -120px;
@@ -68,9 +68,8 @@
     width: 20px;    
 }
 
-
 #css_bar::before{
-    content: url("/ico_css3.png");
+    content: url("/img/ico_css3.png");
 }
 
 #css_bar::after{
@@ -78,7 +77,7 @@
 }
 
 #js_bar::before{
-    content: url("/ico_js.png");
+    content: url("/img/ico_js.png");
 }
 
 #js_bar::after{
@@ -86,7 +85,7 @@
 }
 
 #node_bar::before{
-    content: url("/ico_nodejs.png");
+    content: url("/img/ico_nodejs.png");
 }
 
 #node_bar::after{
@@ -94,7 +93,7 @@
 }
 
 #react_bar::before{
-    content: url("/ico_react.png");
+    content: url("/img/ico_react.png");
 }
 
 #react_bar::after{   
