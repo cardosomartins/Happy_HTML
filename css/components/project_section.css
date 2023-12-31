@@ -2,5 +2,20 @@
     position: relative;
     background-color: #24344D;
     border-top: 13px solid black;
-    padding-bottom: 75px;
+    padding-bottom: 130px;
+}
+
+.project_div{
+    display: flex; 
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.button.project-link{
+    width: 20%;
+    height: 40px;
+    top: 30px;
+    padding-top: 7.5%;
+    padding-bottom: 7.5%;
+    box-shadow: 10px 5px 5px 5px black;
 }
