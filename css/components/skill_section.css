@@ -12,24 +12,31 @@
 
 .skills_section .skills_div_column{
     display: flex;    
-    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: baseline;
+    flex-direction: row;
 }
 
-.skills_section .skills_div_row{
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.skill_bar{    
+.skill_bar{
+    box-sizing: border-box;
+    width: 50%;
     color: white;
     font-family: "Press Start 2P", monospace;
     font-weight: 1000;
     font-size: 20px;
     display: block;    
     position: relative;
-    text-align: center;
-    margin: 20px;
     text-shadow: 5px 5px 0 black;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+
+.skill_bar:nth-child(odd){
+    left: 40%;
+}
+
+.skill_bar:nth-child(even){
+    left: 5%;
 }
 
 .skill_bar::before{
