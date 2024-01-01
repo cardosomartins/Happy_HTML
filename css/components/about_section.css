@@ -1,0 +1,15 @@
+.about_section{
+    position: relative;
+    background-color: #24484d;
+    border-top: 13px solid black;
+    padding-bottom: 130px;
+}
+
+.about_div{
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 50px;    
+    text-align: center;
+}
+
