@@ -13,8 +13,28 @@
     text-align: center;
 }
 
-.about_paragraph{
-    font-size: 25px;
+.about_div_horizontal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     color: white;
 }
+
+.about_paragraph{
+    font-size: 25px;
+}
+
+
+.timeline{
+    width: 95%; 
+    height: 4px;   
+    background-color: white;
+}
+
+.timeline_dots{
+    width: 0.3%;
+    height: 4px;   
+    background-color: white;
+}
+
 
