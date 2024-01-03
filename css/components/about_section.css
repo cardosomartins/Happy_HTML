@@ -26,21 +26,36 @@
     justify-content: space-evenly;
 }
 
-.about_pictures_horizontal img{
-    margin-top: 2.0%;
-    width: 10%;
+.about_picture_container{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;   
+    align-items: center;
+}
+
+.about_picture_container .timeline_dots{
+    width: 2.5%;
+    margin: 1.5px;
+    z-index: 0;
+}
+
+.about_pictures_horizontal .about_picture_container img{
+    width: 80%;
     height: 140px;
+    position: relative;
 }
 
 .about_paragraph{
     font-size: 25px;
+    text-align: center;
+    justify-content: center;
 }
-
 
 .timeline{
     width: 95%; 
     height: 4px;   
     background-color: white;
+    z-index:2;
 }
 
 .timeline_dots{
