@@ -70,3 +70,16 @@
     border: 5px solid #000
 }
 
+.about_arrow_pictures{
+    top: 80px;    
+}
+
+.about_picture_container:first-child{
+    width: 45px;
+    height: 45px
+}
+
+.about_picture_container:last-child{
+    width: 45px;
+    height: 45px
+}
