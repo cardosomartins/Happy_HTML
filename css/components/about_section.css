@@ -20,6 +20,18 @@
     color: white;
 }
 
+.about_pictures_horizontal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.about_pictures_horizontal img{
+    margin-top: 2.0%;
+    width: 10%;
+    height: 140px;
+}
+
 .about_paragraph{
     font-size: 25px;
 }
