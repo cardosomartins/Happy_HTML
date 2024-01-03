@@ -17,7 +17,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    color: white;
+    color: black;
 }
 
 .about_pictures_horizontal{
@@ -54,14 +54,19 @@
 .timeline{
     width: 95%; 
     height: 4px;   
-    background-color: white;
+    background-color: black;
+    border-color: black;
     z-index:2;
 }
 
 .timeline_dots{
     width: 0.3%;
     height: 4px;   
-    background-color: white;
+    background-color: black;
+    border-color: black;
 }
 
+.about_pictures{
+    border: 5px solid #000
+}
 
