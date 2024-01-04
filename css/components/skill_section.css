@@ -19,7 +19,7 @@
 
 .skill_bar{
     box-sizing: border-box;
-    width: 50%;
+    width: 35%;
     color: white;
     font-family: "Press Start 2P", monospace;
     font-weight: 1000;
@@ -32,11 +32,11 @@
 }
 
 .skill_bar:nth-child(odd){
-    left: 40%;
+    left: 39%;
 }
 
 .skill_bar:nth-child(even){
-    left: 5%;
+    left: 20%;
 }
 
 .skill_bar::before{
