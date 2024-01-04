@@ -51,6 +51,8 @@
     text-align: center;
     justify-content: center;
     color: white;
+    font-family: "Fira Code", Arial; 
+    line-height: 1.3;
 }
 
 .timeline{
