@@ -2,7 +2,7 @@
     position: relative;
     background-color: #24484d;
     border-top: 13px solid black;
-    padding-bottom: 130px;
+    padding-bottom: 4%;
 }
 
 .about_div{
@@ -46,13 +46,14 @@
 }
 
 .about_paragraph{
-    width: 100%;
     font-size: 20px;
     text-align: center;
     justify-content: center;
     color: white;
     font-family: "Fira Code", Arial; 
     line-height: 1.3;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .timeline{
