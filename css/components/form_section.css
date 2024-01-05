@@ -8,17 +8,43 @@
     padding-top: 3%;
 }
 
+.form_div{
+    padding-top: 2%;
+}
+
 .form_field label{
     text-align: left;
     display: block;
     color: white;
     font-family: "Fira Code", Arial;
+    font-size: 25px;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 
 .form_field input{
     display: block;
-    
+    width: 100%;
+    height: 30px;
+    font-size: 25px;
+    border: 4px solid black;
 }
 
+.form_field textarea{
+    width: 100%;
+    font-size: 25px;
+    border: 4px solid black;
+}
+
+#message{
+    height: 300px;
+}
+
+#submit_form_button{
+    margin-top: 3%;
+    height: 60px;
+    background-color: #24484d;
+    color: white;
+}
 
 
