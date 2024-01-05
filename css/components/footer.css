@@ -1,0 +1,11 @@
+.footer_container{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 1%;
+}
+
+.footer_links{
+    margin-right: 1%;
+    margin-left: 1%;
+}
