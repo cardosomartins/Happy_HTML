@@ -47,4 +47,9 @@
     color: white;
 }
 
+#submit_form_button:hover{
+    transform: scale(1.05);
+    opacity: 0.2;
+}
+
 
